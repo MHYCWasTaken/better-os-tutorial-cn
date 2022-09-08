@@ -1,3 +1,10 @@
+---
+layout: default
+title: Lesson 00 - Content
+nav_order: 99
+parent: Lesson 00
+---
+
 *开始之前你可能需要 Google 了解的概念： linux, mac, terminal, compiler, emulator, nasm, qemu*
 
 <概念列表>
