@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: 主页
 nav_order: 1
 description: "Better OS Tutorial CN"
 permalink: /
@@ -10,29 +10,29 @@ permalink: /
 ===========
 
 <注解>  
-此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解
+此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解  
 
 有我添加的部分将会像这段文字一样呈现  
-<注解/>
+<注解/>  
 
-如何从零开始编写一个操作系统!
+如何从零开始编写一个操作系统!  
 
 我一直想要学习从零开始实现一个操作系统。在大学里我就学习了如何实现一些操作系统的高级特性（分页机制，
-信号，内存管理，等等）但是：
+信号，内存管理，等等）但是：  
 
-- 我从来没有学习过如何自己引导一个操作系统
-- 大学里的课程非常难以至于大部分内容我都已经还给老师了.
-- 我已经听了太多人说，可以从阅读一个已经写好的操作系统代码开始学习，哪怕是实现了很少的功能，也是个学习操作系统的好办法。
+- 我从来没有学习过如何自己引导一个操作系统  
+- 大学里的课程非常难以至于大部分内容我都已经还给老师了.  
+- 我已经听了太多人说，可以从阅读一个已经写好的操作系统代码开始学习，哪怕是实现了很少的功能，也是个学习操作系统的好办法。  
 
-受到 [这篇文章](http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
-和 [OSDev wiki](http://wiki.osdev.org/) 的启发, 我将会尝试编写简短的一步一步可操作的指南以及对应步骤的代码，让任何基础的人都可以按照指南编写自己的操作系统。
-说实话，这些指南只是一些基础文档分成了一些小块，所以可能会不怎么符合逻辑。
+受到 [这篇文章](http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)  
+和 [OSDev wiki](http://wiki.osdev.org/) 的启发, 我将会尝试编写简短的一步一步可操作的指南以及对应步骤的代码，让任何基础的人都可以按照指南编写自己的操作系统。  
+说实话，这些指南只是一些基础文档分成了一些小块，所以可能会不怎么符合逻辑。  
 
 更新: 更多的资源: [关于操作系统开发的书](https://littleosbook.github.io),
-[JamesM's 内核开发手册](https://web.archive.org/web/20160412174753/http://www.jamesmolloy.co.uk/tutorial_html/index.html)
+[JamesM's 内核开发手册](https://web.archive.org/web/20160412174753/http://www.jamesmolloy.co.uk/tutorial_html/index.html)  
 
 
-特点
+特点  
 --------
 
 - 这是一本代码编写手册，尤其适合那些喜欢计算机底层技术的人。例如，一直好奇操作系统是如何工作的程序员，他们没有时间和意志力去从头到尾地阅读 Linux 内核代码。
