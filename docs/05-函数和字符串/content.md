@@ -1,3 +1,10 @@
+---
+layout: default
+title: Lesson 05 - Content
+nav_order: 99
+parent: Lesson 05
+---
+
 *开始之前你可能需要 Google 了解的概念： control structures, function calling, strings*
 
 > control structures : 流程图，一种图像，可以清晰的表示条件分支和循环

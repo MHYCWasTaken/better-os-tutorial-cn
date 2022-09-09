@@ -4,6 +4,7 @@ title: Lesson 04 - boot_sect_stack.asm
 nav_order: 99
 parent: Lesson 04
 ---
+
 ```nasm
 mov ah, 0x0e ; tty mode
 
