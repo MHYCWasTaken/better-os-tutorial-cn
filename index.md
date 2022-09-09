@@ -7,7 +7,8 @@ permalink: /
 ---
 
 # 操作系统编写教程 -- 注解版
-===========
+
+------
 
 <注解>  
 此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解  
