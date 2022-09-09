@@ -56,6 +56,7 @@ loop:
     jmp loop 
 
 ; 填充进（510-前面代码大小的长度(e9 fd ff)）个0
+; 为什么是510？因为一个扇区有512字节而我们需要最后两个字节是奇妙咒语
 times 510-($-$$) db 0
 ; 奇~妙的咒~语 (使BIOS识别为引导扇区)
 dw 0xaa55 
@@ -74,19 +75,19 @@ dw 0xaa55
 编译
 `nasm -f bin boot_sect_simple.asm -o boot_sect_simple.bin`
 
-> OSX 提醒： 如果这里出现错误，请重新阅读 00 章节
+OSX 提醒： 如果这里出现错误，请重新阅读 00 章节
 
 我知道你一定迫不及待的想运行一下 (我也是!)，那么我们开始运行它：
 
 `qemu boot_sect_simple.bin`
 
-> 有些系统下，你可能需要运行 `qemu-system-x86_64 boot_sect_simple.bin` 如果出现 SDL 错误， 传递 --nographic 或者 --curses 参数给 qemu 程序。
+有些系统下，你可能需要运行 `qemu-system-x86_64 boot_sect_simple.bin` 如果出现 SDL 错误， 传递 --nographic 或者 --curses 参数给 qemu 程序。
 
 >
 >哇哇哇，看来又到我了，要开始运行了？   
 >来到 `W:\os` 右键开启命令行，或者win+r开启命令行cd到这里，麻烦点  
 >```
->.\NASM\nasm.exe boot_sect_simple.asm -o boot_sect_simple.bin
+>.\NASM\nasm.exe boot_sect_simple.asm -o boot_sect_simple.bin -f bin
 >```
 >这样可以生成一个名为 `boot_sect_simple.bin` 的文件，用二进制编辑器打开可以看见和上文的二进制一样  
 >由于我们写的是x86_64的系统，请运行  
