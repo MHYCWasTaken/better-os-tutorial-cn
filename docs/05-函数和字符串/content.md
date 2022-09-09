@@ -7,8 +7,8 @@ parent: Lesson 05
 
 *开始之前你可能需要 Google 了解的概念： control structures, function calling, strings*
 
-> control structures : 流程图，一种图像，可以清晰的表示条件分支和循环
-> 一个小小例子:
+> control structures : 流程图，一种图像，可以清晰的表示条件分支和循环  
+> 一个小小例子:  
 > ```mermaid
 > graph TD;
 >     A-->B;
@@ -16,9 +16,9 @@ parent: Lesson 05
 >     B-->D;
 >     C-->D;
 >     D-->A;
-> ```
-> function calling : 函数调用，不了解什么是函数请重上初二
-> strings : 字符串
+> ```  
+> function calling : 函数调用，不了解什么是函数请重上初二  
+> strings : 字符串  
 
 **目的： 学会使用汇编完成基础代码（循环和函数）**
 
@@ -40,7 +40,7 @@ mystring:
 
 请注意被单引号包围的文本会被汇编器转换成 ASCII 码，最后那个 0 会被直接当成 0x00 处理。
 
-> 单双引号在asm中等价
+> 单双引号在asm中等价  
 > 'Hello' => 'H' 'e' 'l' 'l' 'o' '0x00'
 
 控制流程
@@ -71,10 +71,10 @@ endif:
 
 这里面有很多 `jmp` 条件： if equal, if less than, etc. 这些都是很直观的流程，你也可以使用 Google 更好的了解它们
 
-> ![来自iowiki1](../../assets/images/conditions_1.png)
-> ![来自iowiki2](../../assets/images/conditions_2.png)
-> ![来自iowiki3](../../assets/images/conditions_3.png)
-> 三幅截图来自 [iowiki](https://iowiki.com/assembly_programming/assembly_conditions.html)
+> ![来自iowiki1](../../assets/images/conditions_1.png)  
+> ![来自iowiki2](../../assets/images/conditions_2.png)  
+> ![来自iowiki3](../../assets/images/conditions_3.png)  
+> 三幅截图来自 [iowiki](https://iowiki.com/assembly_programming/assembly_conditions.html)  
 
 函数调用
 -----------------
@@ -136,9 +136,9 @@ CPU 同样有单独的指令来保存寄存器状态到栈： `pusha` 和对应�
 代码！ 
 -----
 
-> 文件变多了，但是智能的nasm会帮我们编译文件中include的其他asm文件
-> 你的bat还能用！
-> 记得还是运行 `.\compile_and_boot.bat boot_sect_main` ，只要对主文件运行就行
+> 文件变多了，但是智能的nasm会帮我们编译文件中include的其他asm文件  
+> 你的bat还能用！  
+> 记得还是运行 `.\compile_and_boot.bat boot_sect_main` ，只要对主文件运行就行  
 
 现在我们分析一下代码。 `boot_sect_print.asm` 通过 `%include` 指令被主程序包含，主程序以子程序的方式调用它。它使用循环来打印字符串到屏幕。同时包含了一个可以打印换行的函数类似 `'\n'` 的其实是两个字符。换行符 `0x0A` 和回车符 `0x0D`。你可以做个试验，去掉回车符看看代码是如何影响打印结果的。
 

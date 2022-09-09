@@ -71,6 +71,10 @@ dw 0xaa55
 >- times a b  将接下来a位填充进b
 >- db   定义操作数占用的字节数，这里用于将0标志为一个数值而不是指令
 >- dw   定义两字节空间，这里将接下来两个字节替换为0xaa55，对应上文二进制文件的55 AA  
+>-关于变量定义：（来自iowiki : https://iowiki.com/assembly_programming/assembly_variables.html）  
+> ![iowiki1](../../assets/images/var1.png)
+> ![iowiki2](../../assets/images/var2.png)
+> ![iowiki3](../../assets/images/var3.png)
 
 
 编译
