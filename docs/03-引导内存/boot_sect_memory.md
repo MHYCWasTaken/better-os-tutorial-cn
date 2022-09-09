@@ -1,3 +1,9 @@
+---
+layout: default
+title: Lesson 03 - boot_sect_memory.asm
+nav_order: 99
+parent: Lesson 03
+---
 ```nasm
 mov ah, 0x0e
 
