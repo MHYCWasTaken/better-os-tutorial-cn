@@ -5,9 +5,11 @@ nav_order: 99
 parent: Lesson 00
 ---
 
-*开始之前你可能需要 Google 了解的概念： linux, mac, terminal, compiler, emulator, nasm, qemu*
+*开始之前你可能需要了解的概念：linux, mac, terminal, compiler, emulator, nasm, qemu*
 
-<概念列表>
+
+```
+概念列表：
 - linux : 三大操作系统之一，开源免费，拥有极其多的分支
 - mac : 苹果电脑
 - terminal : 终端，是一个黑框框，运行一些指令后会打印日志，通常情况下终端会比图形化界面更加强大
@@ -15,10 +17,9 @@ parent: Lesson 00
 - emulator : 想在电脑上玩FC游戏？使用Emulator吧！Emulator是一种虚拟机，但是一般运行较为古早的系统
 - nasm : 本项目过程中需要使用的编译器，负责编译  
 - qemu : 本项目中使用的Emulator  
+```
 
-<概念列表/>
-
-**目的：安装运行教程代码所需要的软件**
+## 目的：安装运行教程代码所需要的软件
 
 我在一台 Mac 电脑上工作，但是 Linux 是一个更好的选择因为 Linux 一般都提供了你需要的标准工具。
 
@@ -28,7 +29,8 @@ parent: Lesson 00
 
 在有些系统上 qemu 分成好几个二进制文件，你可能会使用 `qemu-system-x86_64 binfile`
 
-<注解>  
+
+```
 如果你在Windows上使用，请随我来  
 *因为lincence的原因，我无法将配置好的环境上传，见谅*  
 分别前往 [nasm官网的下载列表](https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D) 和 [qemu的官网下载列表](https://www.qemu.org/download/#windows) 获取安装包，尽可能选择32bit版本
@@ -50,4 +52,4 @@ os
 | | zlib1.dll  
 |  
 你已经完成了，编译和运行等内容将之后讲解  
-<注解/>  
+```
