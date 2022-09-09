@@ -36,20 +36,20 @@ parent: Lesson 00
 >分别前往 [nasm官网的下载列表](https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D) 和 [qemu的官网下载列表](https://www.qemu.org/download/#windows) 获取安装包，尽可能选择32bit版本
 >完成后安装，请将两个软件装到离工作区较近的地方  
 >例如我将其分别安装至 `W:\os\NASM` 和 `W:\os\qemu-windows` 尽量不要出现嵌套文件夹  
->完成后文件结构应该像这样:  
+>完成后文件结构应该像这样: 
+>```  
 >os  
->|  
->| NASM  
->| | VSrules  
->| | ldrdf.exe  
->| | ......  
->| | Unistall.exe  
->|  
->| qemu-windows  
->| | lib  
->| | share  
->| | ......  
->| | zlib1.dll  
->|  
+>+-- NASM  
+>|   |-- VSrules  
+>|   |-- ldrdf.exe  
+>|   |-- ......  
+>|   +-- Unistall.exe  
+>|-- qemu-windows  
+>|   |-- lib  
+>|   |-- share  
+>|   |-- ......  
+>|   +-- zlib1.dll  
+>|-- some_code.asm  
+>```
 >你已经完成了，编译和运行等内容将之后讲解  
 

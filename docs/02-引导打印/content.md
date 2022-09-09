@@ -28,7 +28,7 @@ registers*
 > - 作为完整的32位数据寄存器:EAX，EBX，ECX，EDX。 
 > - 32位寄存器的下半部分可用作4个16位数据寄存器:AX，BX，CX和DX。 
 > - 上述四个16位寄存器的低半部分和高半部分可用作8个8位数据寄存器:AH，AL，BH，BL，CH，CL，DH和DL。
-> ![来自iowiki图片](:register1.jpg)  
+> ![来自iowiki图片](../../assets/images/register1.jpg)  
 > 这张图片非常清晰明白，看着他可以方便的理解之后一段时间内的许多原理
 
 `0x0e` 写入 `ah` 告诉视频中断我们想要以 tty 模式显示 `al` 寄存器中的内容。
