@@ -61,7 +61,7 @@ dw 0xaa55
 >.\qemu-win\qemu-system-x86_64.exe .\%s%.bin
 >```
 >放置在 `W:\os` 里面  
->运行时右键开启控制台并执行 `compile_and_run.bat file_name`  
+>运行时右键开启控制台并执行 `.\compile_and_run.bat file_name`  
 >file_name不加后缀名  
 
 你可以使用 `xxd file.bin` 命令检查二进制数据
