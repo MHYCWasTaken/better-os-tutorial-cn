@@ -18,10 +18,10 @@ permalink: /
 
 ------
 
-```
-此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解
+>
+>此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解
+>
+>有我添加的部分将会像这段文字一样呈现  
 
-有我添加的部分将会像这段文字一样呈现  
-```
 
 原仓库的README [戳这里](https://github.com/ruiers/os-tutorial-cn/README.md)
