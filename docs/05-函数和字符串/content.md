@@ -1,5 +1,18 @@
 *开始之前你可能需要 Google 了解的概念： control structures, function calling, strings*
 
+> control structures : 流程图，一种图像，可以清晰的表示条件分支和循环
+> 一个小小例子:
+> ```mermaid
+> graph TD;
+>     A-->B;
+>     A-->C;
+>     B-->D;
+>     C-->D;
+>     D-->A;
+> ```
+> function calling : 函数调用，不了解什么是函数请重上初二
+> strings : 字符串
+
 **目的： 学会使用汇编完成基础代码（循环和函数）**
 
 我们离最后可用的引导程序只有一步之遥。
@@ -20,6 +33,9 @@ mystring:
 
 请注意被单引号包围的文本会被汇编器转换成 ASCII 码，最后那个 0 会被直接当成 0x00 处理。
 
+> 单双引号在asm中等价
+> 'Hello' => 'H' 'e' 'l' 'l' 'o' '0x00'
+
 控制流程
 ------------------
 
@@ -28,10 +44,10 @@ mystring:
 汇编语言中跳转条件是基于 *上一条* 指令的计算结果，例如：
 
 ```nasm
-cmp ax, 4      ; if ax = 4
-je ax_is_four  ; do something (by jumping to that label)
-jmp else       ; else, do another thing
-jmp endif      ; finally, resume the normal flow
+cmp ax, 4      ; 对比ax和4
+je ax_is_four  ; je：当上方cmp的两个参数等价时执行
+jmp else       ; jmp：当上方cmp的两个参数不等价时执行（也可用作无条件跳转）
+jmp endif      ; 到endif
 
 ax_is_four:
     .....
@@ -39,7 +55,7 @@ ax_is_four:
 
 else:
     .....
-    jmp endif  ; not actually necessary but printed here for completeness
+    jmp endif  ; 并不是十分必要，但是为了美观还是写一下吧
 
 endif:
 ```
@@ -48,6 +64,10 @@ endif:
 
 这里面有很多 `jmp` 条件： if equal, if less than, etc. 这些都是很直观的流程，你也可以使用 Google 更好的了解它们
 
+> ![来自iowiki1](../../assets/images/conditions_1.png)
+> ![来自iowiki2](../../assets/images/conditions_2.png)
+> ![来自iowiki3](../../assets/images/conditions_3.png)
+> 三幅截图来自 [iowiki](https://iowiki.com/assembly_programming/assembly_conditions.html)
 
 函数调用
 -----------------
@@ -85,16 +105,19 @@ CPU 会帮助我们存储返回地址，使用 CPU 指令 `call` 和 `ret` 来�
 
 CPU 同样有单独的指令来保存寄存器状态到栈： `pusha` 和对应的 `popa`，可以自动保存所有寄存器信息到栈中并完全恢复到最初的状态。
 
-包含外部文件Including external files
+> ~~真方便，不是吗~~
+
+包含外部文件
 ------------------------
 
 我假设你是一个程序员而且不需要我来告诉你这样做的好处。
+
+> 好处就是方便维护和添加功能，再说512byte肯定放不下整个操作系统
 
 汇编语法就是这样
 ```nasm
 %include "file.asm"
 ```
-
 
 打印十六进制数据
 -------------------
