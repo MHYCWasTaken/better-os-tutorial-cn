@@ -23,7 +23,7 @@ registers*
 > 可以理解为一个寄存器的一个部分
 >
 > 2022-9-9-19:12更新：  
-> 转自 https://iowiki.com/assembly_programming/assembly_registers.html
+> 转自 https://iowiki.com/assembly_programming/assembly_registers.html  
 > 四个32位数据寄存器用于算术，逻辑和其他操作。 这些32位寄存器可以三种方式使用 -  
 > - 作为完整的32位数据寄存器:EAX，EBX，ECX，EDX。 
 > - 32位寄存器的下半部分可用作4个16位数据寄存器:AX，BX，CX和DX。 
