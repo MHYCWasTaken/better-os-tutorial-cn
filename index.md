@@ -25,3 +25,7 @@ permalink: /
 
 
 原仓库的README [戳这里](https://github.com/ruiers/os-tutorial-cn/README.md)
+
+# 十分建议按照lesson顺序阅读
+
+[有问题或发现错误？提交一个Issue！](https://github.com/MHYCWasTaken/better-os-tutorial-cn/issues)
