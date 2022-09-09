@@ -8,9 +8,9 @@ parent: Lesson 02
 *开始之前你可能需要 Google 了解的概念：interrupts, CPU
 registers*
 
-> interrupts : 中断 打断CPU执行的事件
-> CPU : 中央处理器
-> registers : 寄存器，CPU中的存储器
+> interrupts : 中断 打断CPU执行的事件  
+> CPU : 中央处理器  
+> registers : 寄存器，CPU中的存储器  
 
 **目的： 让之前的引导程序输出一些文本**
 
@@ -19,7 +19,7 @@ registers*
 在这个例子中我们将会向寄存器 `al` (`ax` 的低端部分) 写入 “hello” 单词的每个字符，把 `0x0e`
 写入 `ah` (`ax` 的高端部分) 然后发出中断 `0x10`，这是视频服务的通用中断。
 
-> ah是累加器ax的高8位（high），al是ax的低8位（low），ah和al均可以单独作为8位寄存器使用。
+> ah是累加器ax的高8位（high），al是ax的低8位（low），ah和al均可以单独作为8位寄存器使用。  
 > 可以理解为一个寄存器的一个部分
 
 `0x0e` 写入 `ah` 告诉视频中断我们想要以 tty 模式显示 `al` 寄存器中的内容。
@@ -53,16 +53,16 @@ times 510 - ($-$$) db 0
 dw 0xaa55 
 ```
 
->为了方便，你可以创建一个bat程序 `compile_and_run.bat` ：
+>为了方便，你可以创建一个bat程序 `compile_and_run.bat` ：  
 >```
 >set s=%1
 >echo %s%
 >.\NASM\nasm.exe -f bin .\%s%.asm -o .\%s%.bin
 >.\qemu-win\qemu-system-x86_64.exe .\%s%.bin
 >```
->放置在 `W:\os` 里面
->运行时右键开启控制台并执行 `compile_and_run.bat file_name`
->file_name不加后缀名
+>放置在 `W:\os` 里面  
+>运行时右键开启控制台并执行 `compile_and_run.bat file_name`  
+>file_name不加后缀名  
 
 你可以使用 `xxd file.bin` 命令检查二进制数据
 
