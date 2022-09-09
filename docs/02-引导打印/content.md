@@ -21,6 +21,15 @@ registers*
 
 > ah是累加器ax的高8位（high），al是ax的低8位（low），ah和al均可以单独作为8位寄存器使用。  
 > 可以理解为一个寄存器的一个部分
+>
+> 2022-9-9-19:12更新：  
+> 转自 https://iowiki.com/assembly_programming/assembly_registers.html
+> 四个32位数据寄存器用于算术，逻辑和其他操作。 这些32位寄存器可以三种方式使用 -  
+> - 作为完整的32位数据寄存器:EAX，EBX，ECX，EDX。 
+> - 32位寄存器的下半部分可用作4个16位数据寄存器:AX，BX，CX和DX。 
+> - 上述四个16位寄存器的低半部分和高半部分可用作8个8位数据寄存器:AH，AL，BH，BL，CH，CL，DH和DL。
+> ![来自iowiki图片](:register1.jpg)  
+> 这张图片非常清晰明白，看着他可以方便的理解之后一段时间内的许多原理
 
 `0x0e` 写入 `ah` 告诉视频中断我们想要以 tty 模式显示 `al` 寄存器中的内容。
 

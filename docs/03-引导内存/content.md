@@ -1,10 +1,15 @@
 *开始之前你可能需要 Google 了解的概念： memory offsets, pointers*
 
+>memory offsets : 内存偏移,三言两语讲不清楚,先往下看
+>pointers : 指针,是一个变量,指向一个内存地址
+
 **目的： 理解计算机内存是如何组织的**
 
 请重点学习下 [这个文档] (
 http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)<sup>1</sup>
 的 14 页上的内存分布图。
+
+> ~~我没看懂~~
 
 这个章节的主要目的是要明白，启动引导扇区的程序被储存在内存的哪个位置
 
@@ -28,6 +33,8 @@ the_secret:
 4. `mov al, 2d + 0x7C00`, 这里 `2d` 是 'X' 字节在二进制数据中的绝对地址。
 
 现在分析一下代码，同时也有注意阅读里面的注释。
+
+>[在这里！](https://mhyc.eu.org/better-os-tutorial-cn/docs/03-引导内存/boot_sect_memory/)
 
 编译并运行我们的代码。你可能会看到类似 `1[2¢3X4X` 的字符串，这里 1 和 2 后面的数据是随机的内存数据 。
 
