@@ -22,6 +22,7 @@ disk_load:
     mov dh, 0x00 ; dh <- 磁头 (0x0 .. 0xF)
 
     ; [es:bx] <- 指向将存储数据的缓冲区的指针 
+    ; es:bx的意思是从es开始往后移动bx个位置，加个方括号就是指向那个地方的指针
     ; 调用者为我们设置它，它实际上是int 13h的标准位置
     int 0x13      ; BIOS 中断
     jc disk_error ; 如果错误（检测进位符）跳转到disk_error

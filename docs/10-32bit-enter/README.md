@@ -1,23 +1,41 @@
-*Concepts you may want to Google beforehand: interrupts, pipelining*
+*您可能需要事先搜索的概念：中断、流水线*
 
-**Goal: Enter 32-bit protected mode and test our code from previous lessons**
 
-To jump into 32-bit mode:
+**目标：进入32位保护模式并测试之前课程中的代码**
 
-1. Disable interrupts
-2. Load our GDT
-3. Set a bit on the CPU control register `cr0`
-4. Flush the CPU pipeline by issuing a carefully crafted far jump
-5. Update all the segment registers
-6. Update the stack
-7. Call to a well-known label which contains the first useful code in 32 bits
 
-We will encapsulate this process on the file `32bit-switch.asm`. Open it
-and take a look at the code.
+要跳转到32位模式：
 
-After entering 32-bit mode, we will call `BEGIN_PM` which is the entry point
-for our actual useful code (e.g. kernel code, etc). You can read the code
-at `32bit-main.asm`. Compile and run this last file and you will see the two 
-messages on the screen.
 
-Congratulations! Our next step will be to write a simple kernel
+1.禁用中断
+
+2.加载我们的GDT
+
+3.在CPU控制寄存器“cr0”上设置一位`
+
+4.通过发出精心设计的远跳来刷新CPU管道
+
+5.更新所有段寄存器
+
+6.更新堆栈
+
+7.调用一个众所周知的标签，该标签包含32位的第一个有用代码
+
+
+我们将把这个过程封装在文件“32bit-switch.asm”中。打开它
+
+看看代码。
+
+
+进入32位模式后，我们将调用“BEGIN_PM”，这是入口点
+
+对于我们实际有用的代码（例如内核代码等）。你可以阅读代码
+
+在“32bit-main.asm”处。编译并运行最后一个文件，您将看到
+
+屏幕上的消息。
+
+
+祝贺我们的下一步将是编写一个简单的内核
+
+> NND这注解什么啊，到这没人看不懂了吧

@@ -1,22 +1,23 @@
-[org 0x7c00] ; bootloader offset
-    mov bp, 0x9000 ; set the stack
+[org 0x7c00] ; 偏移
+    mov bp, 0x9000 ; 栈
     mov sp, bp
 
     mov bx, MSG_REAL_MODE
-    call print ; This will be written after the BIOS messages
+    call print ; 在BIOS信息（Boot from hard disk...）之后打印
+    ; 哈哈，还是第五课
 
     call switch_to_pm
-    jmp $ ; this will actually never be executed
+    jmp $ ; t这句其实执行不到
 
-%include "../05-bootsector-functions-strings/boot_sect_print.asm"
-%include "../09-32bit-gdt/32bit-gdt.asm"
-%include "../08-32bit-print/32bit-print.asm"
+%include "boot_sect_print.asm" ; lesson 5
+%include "32bit-gdt.asm" ; 来自第九课
+%include "32bit-print.asm" ; 来自第八课
 %include "32bit-switch.asm"
 
 [bits 32]
-BEGIN_PM: ; after the switch we will get here
+BEGIN_PM: ; 32-bit-switch.asm中最后跳到了这儿
     mov ebx, MSG_PROT_MODE
-    call print_string_pm ; Note that this will be written at the top left corner
+    call print_string_pm ; 在屏幕左上角输出
     jmp $
 
 MSG_REAL_MODE db "Started in 16-bit real mode", 0
