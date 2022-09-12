@@ -139,7 +139,7 @@ make install-target-libgcc
     然后前往[这个页面](https://ftp.gnu.org/gnu/binutils/)（是官网，别担心）找到最新的版本  
     例如我的2.39，我们找到这个版本的 `.tar.gz` 文件，右键复制链接  
     来到Cygwin，运行  
-    `curl <你复制的链接-o binutils.tar.gz`  
+    `curl <你复制的链接> -o binutils.tar.gz`  
     ~~Cygwin的curl下载东西的时候需要给定输出文件名~~  
     然后运行这些个命令来创建合适的目录并放入压缩包并解压  
     ```sh
