@@ -1,3 +1,10 @@
+---
+layout: default
+title: Lesson 10 - Content
+nav_order: 99
+parent: Lesson 10
+---
+
 *您可能需要事先搜索的概念：中断、流水线*
 
 

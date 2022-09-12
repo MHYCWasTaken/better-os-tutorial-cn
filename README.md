@@ -1,11 +1,13 @@
 操作系统编写教程 -- 注解版
 ===========
 
-<注解>  
-此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解
+访问 [便于阅读版](https://mhyc.eu.org/better-os-tutorial-cn)
 
-有我添加的部分将会像这段文字一样呈现  
-<注解/>
+---  
+> 此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解
+>
+> 有我添加的部分将会像这段文字一样呈现  
+---
 
 如何从零开始编写一个操作系统!
 
