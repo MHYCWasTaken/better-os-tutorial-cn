@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title: Lesson 01 - Content
 nav_order: 99
-parent: Lesson 01
+parent: 01-引导扇区
 ---
 
 *开始之前你可能需要 Google 了解的概念： assembler, BIOS*

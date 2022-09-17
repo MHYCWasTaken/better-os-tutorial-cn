@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Lesson 01
+layout: post
+title: 01-引导扇区
 nav_order: 4
 has_children: true
 permalink: docs/01-引导扇区

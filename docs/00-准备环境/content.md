@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title: Lesson 00 - Content
 nav_order: 99
-parent: Lesson 00
+parent: 00-准备环境
 ---
 
 *开始之前你可能需要了解的概念：linux, mac, terminal, compiler, emulator, nasm, qemu*

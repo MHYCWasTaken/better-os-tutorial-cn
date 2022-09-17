@@ -3,3 +3,23 @@ layout: default
 ---
 
 {{ content }}
+
+<link rel="stylesheet" href="https://mhyc.eu.org/gitalk-include/gitalk.css">
+<script src="https://mhyc.eu.org/gitalk-include/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+    var title = location.pathname.substr(0, 50);
+    var gitalk = new Gitalk({
+        clientID: '8768685a88d987eba7b9',
+        clientSecret: 'e1826a6ca764ae3d3202f7449787ea4fa5e30c5b',
+        repo: `better-os-tutorial-cn`,
+        owner: 'MHYCWasTaken',
+        admin: ['MHYCWasTaken'],
+        id: location.pathname,
+        language:'zh-CN',
+        distractionFreeMode: false
+   
+    });
+    gitalk.render('gitalk-container');
+    </script>
