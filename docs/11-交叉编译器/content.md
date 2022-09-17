@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 11 - Content
+layout: post
+title: 11. Content
 nav_order: 99
-parent: Lesson 11
+parent: 11-交叉编译器
 ---
 
 *您可能需要事先搜索的概念：交叉编译器*

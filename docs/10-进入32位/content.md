@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 10 - Content
+layout: post
+title: 10. Content
 nav_order: 99
-parent: Lesson 10
+parent: 10-进入32位
 ---
 
 *您可能需要事先搜索的概念：中断、流水线*

@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 10 - 32bit-switch.asm
+layout: post
+title: 10. 32bit-switch.asm
 nav_order: 99
-parent: Lesson 10
+parent: 10-进入32位
 ---
 ```nasm
 [bits 16]

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 09. 32bit-gdt.asm
 nav_order: 99
 parent: 09-32位gdt
