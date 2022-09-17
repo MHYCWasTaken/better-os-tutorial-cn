@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 06 - Content
+layout: post
+title: 06. Content
 nav_order: 99
-parent: Lesson 06
+parent: 06-引导段
 ---
 
 *开始之前你可能需要 Google 了解的概念：segmentation*

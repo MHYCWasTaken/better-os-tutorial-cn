@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 04 - boot_sect_stack.asm
+layout: post
+title: 04. boot_sect_stack.asm
 nav_order: 99
-parent: Lesson 04
+parent: 04-引导栈
 ---
 
 ```nasm

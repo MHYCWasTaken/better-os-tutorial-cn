@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 06
+title: 06-引导段
 nav_order: 4
 has_children: true
 permalink: docs/06-引导段

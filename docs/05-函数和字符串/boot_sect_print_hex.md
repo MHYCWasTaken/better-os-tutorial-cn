@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 05 - boot_sect_print_hex.asm
+layout: post
+title: 05. boot_sect_print_hex.asm
 nav_order: 99
-parent: Lesson 05
+parent: 05-函数和字符串
 ---
 ```nasm
 ; 调用时参数存在了dx，我们取一下

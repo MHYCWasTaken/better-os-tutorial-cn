@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 05 - boot_sect_print.asm
+layout: post
+title: 05. boot_sect_print.asm
 nav_order: 99
-parent: Lesson 05
+parent: 05-函数和字符串
 ---
 
 ```nasm

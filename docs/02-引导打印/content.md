@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Lesson 02 - Content
+layout: post
+title: 02. Content
 nav_order: 99
 parent: 02-引导打印
 ---

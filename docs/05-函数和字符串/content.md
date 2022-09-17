@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 05 - Content
+layout: post
+title: 05. Content
 nav_order: 99
-parent: Lesson 05
+parent: 05-函数和字符串
 ---
 
 *开始之前你可能需要 Google 了解的概念： control structures, function calling, strings*

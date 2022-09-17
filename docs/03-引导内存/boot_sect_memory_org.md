@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 03 - boot_sect_memory_org.asm
+layout: post
+title: 03. boot_sect_memory_org.asm
 nav_order: 99
-parent: Lesson 03
+parent: 03-引导内存
 ---
 ```nasm
 [org 0x7c00]

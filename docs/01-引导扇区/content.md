@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lesson 01 - Content
+title: 01. Content
 nav_order: 99
 parent: 01-引导扇区
 ---

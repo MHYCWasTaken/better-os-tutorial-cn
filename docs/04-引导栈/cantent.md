@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 04 - Content
+layout: post
+title: 04. Content
 nav_order: 99
-parent: Lesson 04
+parent: 04-引导栈
 ---
 *开始之前你可能需要 Google 了解的概念： stack*
 

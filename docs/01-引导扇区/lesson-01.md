@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 01-引导扇区
 nav_order: 4
 has_children: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lesson 00 - Content
+title: 00. Content
 nav_order: 99
 parent: 00-准备环境
 ---

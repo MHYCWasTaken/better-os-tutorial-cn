@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 06 - boot_sect_segmentation.asm
+layout: post
+title: 06. boot_sect_segmentation.asm
 nav_order: 99
-parent: Lesson 06
+parent: 06-引导段
 ---
 
 ```nasm
