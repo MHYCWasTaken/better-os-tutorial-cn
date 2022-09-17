@@ -23,8 +23,14 @@ layout: default
         admin: ['MHYCWasTaken'],
         id: location.pathname,
         language:'zh-CN',
-        distractionFreeMode: false
-   
+        distractionFreeMode: false,
+        createIssueManually: true,
+        flipMoveOptions:{
+            staggerDelayBy: 150,
+            appearAnimation: 'elevator',
+            enterAnimation: 'elevator',
+            leaveAnimation: 'elevator',
+        }
     });
     gitalk.render('gitalk-container');
     </script>
