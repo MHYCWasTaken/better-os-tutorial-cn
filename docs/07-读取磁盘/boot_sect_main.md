@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 07 - boot_sect_main.asm
+layout: post
+title: 07. boot_sect_main.asm
 nav_order: 99
-parent: Lesson 07
+parent: 07-读取磁盘
 ---
 
 ```nasm

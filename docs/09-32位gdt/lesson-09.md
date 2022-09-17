@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Lesson 08
+title: 09-32位gdt
 nav_order: 4
 has_children: true
-permalink: docs/08-32bit-print
+permalink: docs/09-32位gdt
 ---
 
 # 此章节已完成注解

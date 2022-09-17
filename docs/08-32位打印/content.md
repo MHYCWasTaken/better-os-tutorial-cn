@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 08 - Content
+layout: post
+title: 08. Content
 nav_order: 99
-parent: Lesson 08
+parent: 08-32位打印
 ---
 
 *您可能需要提前搜索的概念：32位保护模式、VGA、显存*

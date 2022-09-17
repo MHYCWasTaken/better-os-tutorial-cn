@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 08 - 32bit-print.asm
+layout: post
+title: 08. 32bit_print.asm
 nav_order: 99
-parent: Lesson 08
+parent: 08-32位打印
 ---
 ```nasm
 [bits 32] ; 哟,真方便

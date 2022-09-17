@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Lesson 07 - Content
+layout: post
+title: 07. Content
 nav_order: 99
-parent: Lesson 07
+parent: 07-读取磁盘
 ---
 
 *您可能需要事先搜索的概念：硬盘、柱面、磁头、扇区、进位*

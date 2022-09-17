@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Lesson 09 - 32bit-gdt.asm
+title: 09. 32bit-gdt.asm
 nav_order: 99
-parent: Lesson 09
+parent: 09-32位gdt
 ---
 ```nasm
 gdt_start: ; 不要移除这些标签，计算大小和跳转要用到

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Lesson 09 - Content
+title: 09. Content
 nav_order: 99
-parent: Lesson 09
+parent: 09-32位gdt
 ---
 *您可能需要事先搜索的概念：GDT*
 
