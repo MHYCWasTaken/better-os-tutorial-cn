@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 02
+title: 02-引导打印
 nav_order: 4
 has_children: true
 permalink: docs/02-引导打印

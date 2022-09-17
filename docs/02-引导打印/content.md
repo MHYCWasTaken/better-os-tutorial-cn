@@ -2,7 +2,7 @@
 layout: default
 title: Lesson 02 - Content
 nav_order: 99
-parent: Lesson 02
+parent: 02-引导打印
 ---
 
 *开始之前你可能需要 Google 了解的概念：interrupts, CPU
