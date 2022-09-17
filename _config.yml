@@ -88,6 +88,10 @@ nav_external_links:
   - title: OS Tutorial CN on Github
     url: https://github.com/ruiers/os-tutorial-cn/tree/chinese/
 
+gitalk:
+  enable: true
+  proxy: https://cors-server-ecru.vercel.app/github_access_token
+  language: zh-CN
 
 # Footer content
 # appears at the bottom of every page's main content
