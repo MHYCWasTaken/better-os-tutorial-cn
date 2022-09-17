@@ -18,15 +18,14 @@ layout: default
 
 <div id="gitalk-container"></div>
 <script type="text/javascript">
-    alert(decodeURIComponent(location.pathname.substring(28)));
     var gitalk = new Gitalk({
         clientID: '8768685a88d987eba7b9',
         clientSecret: 'e1826a6ca764ae3d3202f7449787ea4fa5e30c5b',
-        repo: `better-os-tutorial-cn-comments`,
+        repo: `better-os-tutorial-cn`,
         owner: 'MHYCWasTaken',
         admin: ['MHYCWasTaken'],
-        id: md5(location.pathname),
-        title: "comments of a page",
+        id: decodeURIComponent(location.pathname.substring(28)),
+        title: "Comments of "+decodeURIComponent(location.pathname.substring(28)),
         language:'zh-CN',
         distractionFreeMode: true,
         createIssueManually: true,
