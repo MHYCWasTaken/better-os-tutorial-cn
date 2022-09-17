@@ -18,7 +18,7 @@ layout: default
 
 <div id="gitalk-container"></div>
 <script type="text/javascript">
-    alert(location.pathname);
+    alert(decodeURIComponent(location.pathname));
     var gitalk = new Gitalk({
         clientID: '8768685a88d987eba7b9',
         clientSecret: 'e1826a6ca764ae3d3202f7449787ea4fa5e30c5b',
