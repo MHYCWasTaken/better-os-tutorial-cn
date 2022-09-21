@@ -1,4 +1,4 @@
-/* This will force us to create a kernel entry function instead of jumping to kernel.c:0x00 */
+/* 这将迫使我们创建一个内核入口函数来代替jmp 0x00 */
 void dummy_test_entrypoint() {
 }
 
