@@ -16,7 +16,13 @@ void user_input(char *input) {
         kprint("Stopping the CPU. Bye!\n");
         asm volatile("hlt");
     }
-    kprint("You said: ");
-    kprint(input);
-    kprint("\n> ");
+    if (strcmp(input, "HELLO") == 0) {
+        kprint("HELLO TO YOU TOO :)\n");
+    }
+    else {
+        kprint("You said: ");
+        kprint(input);
+        kprint("\n> ");
+    }
+    
 }

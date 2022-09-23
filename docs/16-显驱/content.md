@@ -1,6 +1,14 @@
+---
+layout: default
+title: 16. Content
+nav_order: 4
+has_children: true
+permalink: docs/16-显驱
+---
 
 *您可能想提前搜索的概念：VGA字符单元、屏幕偏移*
 
+[zip](https://mhyc.eu.org/better-os-tutorial-cn/docs/16-显驱/Lesson16.zip)
 
 **目标：在屏幕上写字符串**
 
