@@ -6,7 +6,7 @@ void memory_copy(char *source, char *dest, int nbytes) {
 }
 
 /**
- * K&R implementation
+ * K&R实施
  */
 void int_to_ascii(int n, char str[]) {
     int i, sign;
@@ -19,5 +19,5 @@ void int_to_ascii(int n, char str[]) {
     if (sign < 0) str[i++] = '-';
     str[i] = '\0';
 
-    /* TODO: implement "reverse" */
+    /* TODO:实现“反向” */
 }
