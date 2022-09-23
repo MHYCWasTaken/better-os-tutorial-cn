@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: post
 title: 16. Content
-nav_order: 4
-has_children: true
-permalink: docs/16-显驱
+nav_order: 99
+parent: 16-显驱
 ---
 
 *您可能想提前搜索的概念：VGA字符单元、屏幕偏移*
