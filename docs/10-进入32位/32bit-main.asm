@@ -7,7 +7,7 @@
     ; 哈哈，还是第五课
 
     call switch_to_pm
-    jmp $ ; t这句其实执行不到
+    jmp $ ; 这句其实执行不到
 
 %include "boot_sect_print.asm" ; lesson 5
 %include "32bit-gdt.asm" ; 来自第九课
