@@ -12,7 +12,7 @@ parent: 00-准备环境
 >概念列表：
 >- terminal : 终端，是一个黑框框，运行一些指令后会打印日志，通常情况下终端会比图形化界面更加强大
 >- compiler : 编译器，写的代码需要先编译成计算机可以识别的文件形式才能运行，当然也有解释性的语言，无需产生编译文件即可运行，例如Python
->- emulator : 想在电脑上玩FC游戏？使用Emulator吧！Emulator是一种虚拟机，但是一般运行较为古早的系统
+>- emulator : 区别于Simulator模拟器，Emulator是仿真器
 >- nasm : 本项目过程中需要使用的编译器，负责编译  
 >- qemu : 本项目中使用的Emulator  
 
